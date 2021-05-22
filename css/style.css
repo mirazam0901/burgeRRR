@@ -1,0 +1,354 @@
+@import'fonts.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway';
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+:root{
+    --color:#ffff;
+    --body:#0C0C0C;
+    --text:#fff;
+}
+.container{
+    max-width: 1140px ;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav__header{
+    padding: 20px 0;
+    background: #0C0C0C;
+}
+.all__poezd__titles{
+    display: flex;
+    justify-content: space-between;
+}
+.proezd__title{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.dostavka__title{
+    color: #fff;
+    width: 350px ;
+    display: flex;
+    justify-content:space-between ;
+}
+.proezd__title__p{
+    padding-left: 5px ;
+   
+}
+/* header start */
+.header{
+    background: #0C0C0C;
+    border: 1px solid rgba(125, 115, 115, 0.5);
+    backdrop-filter: blur(15px);
+   
+    position: sticky;
+    top: 0;
+    z-index: 999;
+   
+}
+.street__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 0; */
+}
+.street__box{
+    width: 220px ;
+    height: 50px ;
+    background: rgba(10, 148, 24, 1);
+    border: 4px solid #06600F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px ;
+    color: #ffff;
+    font-family: 'Raleway';
+    font-weight: 'Bold';
+}
+
+.street__titles__p{
+    padding: 25px 25px ;
+    color:#ffff;
+    transition: 0.5s;
+}
+.street__titles__p:hover{
+    background: rgba(105, 207, 23, 0.75);
+}
+.street__titles{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 550px ;
+}
+/* header and */
+
+/* big burger start */
+.big__burger{
+    background: url(../img/big__burger.jpg) no-repeat center/cover ;
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.big__burger__box__number{
+    width: 285px ;
+    height: 100px ;
+    background: rgba(105, 207, 23, 0.5);
+    backdrop-filter: blur(18px);
+    color: #ffff;
+    font-size: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: 'VariableFont_wght';
+    font-weight: 100;
+}
+.big__burger__box__title{
+    width: 255px ;
+    height: 50px ;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    border-radius: 6px;
+    color: #ffff;
+    font-size: 18px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big__burger__title{
+    color: #69CF17;
+    font-size: 72px ;
+    font-style: 'Bold';
+}
+.big__burger__title2{
+    color: #69CF17;
+    font-size: 36px ;
+    padding-bottom: 20px;
+}
+.big__burger__txt{
+    color:#fff;
+    font-size: 18px ;
+    padding-bottom: 30px;
+}
+.big__burger__logos{
+    display: flex;
+    justify-content: space-between;
+}
+/* big burger and */
+
+
+.black__fons{
+    padding: 30px 0;
+    background: black;
+}
+
+
+
+/* burger menu start */
+.burger__menu{
+    background: #292929;
+    position: sticky;
+    top: 70px ;
+    z-index: 10;
+}
+.burger__menu__div__ul{
+    display: flex;
+    /* padding: 20px 0; */
+}
+.burger__menu__href{
+    display: flex;
+    justify-content: center;
+   color: #ffff;
+   margin-left: 35px;
+   font-size: 18px;
+   /* display: inline-block; */
+   position: relative;
+   padding: 20px 0;
+
+}
+.burger__menu__href::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0% ;
+    height: 2px ;
+    background: #ffff;
+    transition: 0.6s;
+    border-radius: 10%;
+   
+}
+.burger__menu__href:hover:after{
+    width: 100%;
+}
+
+/* burger menu and */
+
+
+/* burger sell start */
+.burger__sell{
+    background: rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 30px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; */
+    row-gap: 30px;
+    padding:  40px;
+}
+
+
+.burger__sell__div{
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; */
+   
+    height: 550px;
+    background: #0C0C0C;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #ffff;
+    padding: 25px ;
+    /* width: 100%; */
+}
+
+
+
+.burger__sell__div__img{
+    /* width: 100%; */
+    /* margin: 15px 15px ; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.burger__sell__logo{
+    position: absolute;
+    display: inline-block;
+    transform: scale(0);
+    transition: 1s;
+}
+.burger__sell__image{
+    position: relative;
+   width: 100%;
+   
+}
+.burger__sell__image img {
+    display: block;
+    width: 100%;
+}
+.burger__sell__image::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(105, 207, 23, 0.9);
+    opacity: 0;
+    transition: 1s;
+}
+.burger__sell__div__img:hover .burger__sell__image::before{
+    opacity: 1;
+}
+.burger__sell__div__img:hover .burger__sell__logo{
+    transform: scale(1)
+}
+.title__burger__sell{
+    padding-top: 15px ;
+}
+.txt__burger__sell{
+    padding-top: 15px ;
+}
+
+
+
+
+/* burger sell and */
+
+/* white__fons__title */
+.white__fons{
+    display: flex;
+    justify-content: center;
+}
+.white__fons__title{
+    color: #69CF17;
+    font-size: 50px ;
+    padding: 20px 0;
+}
+.google__maps__iframe{
+    width: 100%;
+}
+
+/* street number start */
+.street__number{
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 1.5) 100%)
+}
+.street__number__div{
+    display: flex;
+    justify-content: space-between;
+   padding: 30px 0;
+   color: #ffff;
+}
+.street__number__title{
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+.street__number__1{
+    padding: 0 10px ;
+    color: #ffff;
+    font-size: 22px ;
+}
+
+/* street number and */
+
+
+.footer{
+    background: #1A3406;
+}
+.footer__title{
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+}
+
+/* index2  html start */
+.burger__number__2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.street__88{
+    position: absolute;
+}
+.burger__street{
+    background: black;
+}
+.txt{
+    color: #ffff;
+    padding: 30px 20px  ;
+}
+.burger__number__2__image{
+    padding-top: 30px ;
+}
+/* index2  html and */

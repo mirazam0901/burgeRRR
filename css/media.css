@@ -1,0 +1,283 @@
+/* @media(max-width:1440px) {} */
+@media(max-width:1366px) {
+    .burger__sell__div{
+        height: 450px ;
+    }
+}
+/* @media(max-width:1320px) {} */
+/* @media(max-width:1290px) {} */
+@media(max-width:1140px) {
+    .all__poezd__titles{
+        width: 800px  ;
+        margin: 0 auto;
+    }
+    .street__logo{
+        width: 1000px ;
+        margin: 0 auto;
+    }
+    .big__burger__titles{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .big__burger__txt{
+        width: 900px ;
+        text-align: center;
+    }
+    .big__burger__logos{
+       width:85% ;
+       margin: 0 auto;
+    }
+    .big__burger__box__number{
+        font-size: 30px ;
+        width: 200px ;
+        height: 60px ;
+    }
+    .street__box{
+        font-size: 20px ;
+        width: 120px ;
+        height: 40px ;
+    }
+    .burger__sell__div{
+        height: 400px ;
+    }
+    .white__fons__title{
+        font-size: 30px;
+        padding: 10px 0;
+    }
+    .street__number__div{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .burger__number__2__image{
+        width: 800px ;
+    }
+    .street__88{
+       width: 200px ;
+    }
+    .txt{
+        font-size: 12px ;
+        width: 900px ;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+/* @media(max-width:1024px) {} */
+@media(max-width:992px) {
+    .street__logo{
+        width: 800px ;
+    }
+    .burger__menu__href{
+        font-size: 16px ;
+    }
+    .title__burger__sell{
+        text-align: center;
+        font-size: 14px ;
+    }
+    .txt__burger__sell{
+        font-size: 12px ;
+        text-align: center;
+    }
+    .burger__sell__div{
+        height: 350px ;
+    }
+    .burger__sell__logo{
+        width: 40px ;
+    }
+}
+@media(max-width:850px) {
+    .big__burger__txt{
+        width: 95%;
+    }
+    .txt{
+        width: 95%;
+    }
+    .burger__number__2__image{
+        width: 80%;
+    }
+}
+@media(max-width:768px) {
+    .all__poezd__titles{
+        width: 90% ;
+        margin: 0 auto;
+    }
+    .street__logo{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .big__burger__title{
+        font-size: 50px ;
+    }
+    .burger__sell{
+       display: flex;
+       overflow: hidden;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+    .burger__sell__div{
+        flex-shrink: 0;
+        width: 70% ;
+        height: 450px ;
+        scroll-snap-align: center;
+    }
+    .burger__sell__image{
+        width: 300px ;
+    }
+    .street__number__div{
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .title__burger__sell{
+        font-size: 25px ;
+    }
+}
+/* @media(max-width:736px) {} */
+/* @media(max-width:734px) {} */
+@media(max-width:684px) {
+    .street__logo{
+        font-size: 12px;
+    }
+    .street__titles{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .street__titles__p {
+        padding: 20px 10px ;
+    }
+    .street__box {
+        font-size: 14px ;
+        width: 90;
+        height: 30px ;
+    }
+    .burger__menu{
+        top: 50px ;
+    }
+}
+/* @media(max-width:667px) {} */
+/* @media(max-width:576px) {} */
+@media(max-width:414px) {
+  .dostavka__title{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 10px ;
+      width: 60% ;
+      margin: 0 auto;
+  }
+  .proezd__title {
+      width: 100px ;
+  }
+  .proezd__title__p{
+      font-size: 10px ;
+  }
+  .ppp{
+      width: 18px ;
+  }
+  .nav__header{
+      padding: 10px 0;
+  }
+  .street__titles__p{
+      font-size: 8px ;
+      padding: 10px 5px ;
+  }
+  .big__burger__title{
+      font-size: 30px ;
+  }
+  .street__box{
+      font-size: 8px ;
+      width: 70px ;
+      height: 20px ;
+      border: 1px solid #06600F;;
+  }
+  .big__burger__txt{
+      font-size: 12px ;
+  }
+  .big__burger__box__number {
+    font-size: 15px;
+    width: 100px;
+    height:30px;
+}
+.big__burger__box__title {
+    font-size: 15px ;
+    width: 150px ;
+    height: 40px ;
+}
+.black__fons {
+    padding: 15px ;
+}
+.burger__menu__div__ul{
+    width: 90%;
+    margin: 0 auto;
+}
+.burger__menu__href{
+    font-size: 12px ;
+   padding: 10px 0;
+}
+.burger__sell__image{
+    width: 200px ;
+}
+.title__burger__sell{
+    font-size: 15px ;
+}
+.txt__burger__sell{
+    padding-top: 9px ;
+}
+.burger__sell__div{
+    height: 350px ;
+    width: 90%;
+}
+.street__number__title{
+    padding: 30px 0;
+}
+.street__number__1{
+    font-size: 10px ;
+}
+.footer__title{
+    font-size: 10px ;
+    padding: 10px 0;
+}
+
+.google__maps__iframe {
+    height: 150px;
+}
+.white__fons__title{
+    font-size: 15px ;
+}
+.burger__menu{
+    top: 30px ;
+}
+/* @media(max-width:412px) {} */
+@media(max-width:375px) {
+    .street__88{
+        width: 100px ;
+    }
+}
+@media(max-width:360px) {
+    .dostavka__title{
+        font-size: 8px ;
+    }
+    .burger__menu__href{
+        font-size: 10px ;
+    }
+    .burger__sell__div{
+        width: 98%;
+        height: 30%;
+    }
+    .burger__sell__image{
+        width: 150px ;
+    }
+}
+@media(max-width:320px) {
+    .big__burger__title2{
+        font-size: 20px ;
+    }
+    .big__burger__box__title{
+        width: 120px ;
+        height: 30px ;
+        font-size: 12px ;
+    }
+    .burger__menu__href{
+        font-size: 8px ;
+    }
+}
